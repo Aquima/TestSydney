@@ -19,6 +19,7 @@
 		B499FDB019F240A400974B37 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B499FDAD19F240A400974B37 /* Bolts.framework */; };
 		B499FDB119F240A400974B37 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B499FDAE19F240A400974B37 /* Parse.framework */; };
 		B499FDB219F240A400974B37 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B499FDAF19F240A400974B37 /* ParseFacebookUtils.framework */; };
+		B499FDB519F2437500974B37 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B499FDB419F2437500974B37 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B499FDAD19F240A400974B37 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		B499FDAE19F240A400974B37 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		B499FDAF19F240A400974B37 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		B499FDB319F2437500974B37 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B499FDB419F2437500974B37 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		C2CF784CBCBD25F5FDA6B567 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,8 +155,8 @@
 			isa = PBXGroup;
 			children = (
 				B499FDA819F2403500974B37 /* Model */,
-				B499FDA919F2403500974B37 /* View */,
-				B499FDAA19F2403500974B37 /* ViewControllers */,
+				B499FDA919F2403500974B37 /* Views */,
+				B499FDAA19F2403500974B37 /* Controllers */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -165,17 +168,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B499FDA919F2403500974B37 /* View */ = {
+		B499FDA919F2403500974B37 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = Views;
 			path = View;
 			sourceTree = "<group>";
 		};
-		B499FDAA19F2403500974B37 /* ViewControllers */ = {
+		B499FDAA19F2403500974B37 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B499FDB319F2437500974B37 /* MapViewController.h */,
+				B499FDB419F2437500974B37 /* MapViewController.m */,
 			);
+			name = Controllers;
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
@@ -344,6 +351,7 @@
 			files = (
 				B499FD8419F22D6C00974B37 /* AppDelegate.m in Sources */,
 				B499FD8719F22D6C00974B37 /* TestSydney.xcdatamodeld in Sources */,
+				B499FDB519F2437500974B37 /* MapViewController.m in Sources */,
 				B499FD8A19F22D6C00974B37 /* ViewController.m in Sources */,
 				B499FD8119F22D6C00974B37 /* main.m in Sources */,
 			);
